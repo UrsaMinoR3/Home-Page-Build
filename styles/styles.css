@@ -187,3 +187,110 @@ a{
 }
 
 /*end*/
+
+#menu, .oppacity{
+    display: none;
+}
+/*Mobile Resolution*/
+
+@media (max-width: 768px){
+
+    #content, .bannerBottom, #bottomContent{
+        display: block;
+        flex-wrap: none;
+    }
+   
+    #nav{
+        display: none;
+    }
+    .oppacity{
+        display: block;
+    }
+    #menu{
+        display: block;
+        text-align: right;
+        color: gray;
+        font-weight: 600;
+        width: 60%;
+    }
+
+    #leftContent{
+        width: 100%;
+        padding-right: 0;
+        padding-bottom: 50px;
+    }
+    .titleWeb, .textWeb, #rightContent{
+        width: 100%;
+    }
+    .textWeb{
+        height: 150px;
+    }
+
+    .containerBottom{
+        padding-bottom: 20px;
+    }
+
+    .toggle{
+        color: black;
+        background-color: white;
+        border: none;
+        font-size: 40px;
+
+    }
+
+    .floatingMenu{
+        position: fixed;
+        background-color: white;
+        height: 100%;
+        width: 50%;
+        z-index: 1;
+        top: 0;
+        right: 100%;
+        text-align: right;
+        cursor: pointer;
+    }
+
+    .oppacity{
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0,0,0,0.5);
+        z-index: 1;
+        top: 0;
+        left: 100%;
+        cursor: pointer;
+    }
+    
+    .close{
+        padding: 20px;
+        font-size: 30px;
+        border: none;
+        background-color: white;
+    }
+    #navFloating{
+        padding: 20px;
+        text-align: left;
+    }
+    .separation{
+        padding-bottom: 10px;
+    }
+    .separation a{
+        color: black;
+    }
+
+    .oppacity_visible{
+        left: 0;
+    }
+    .nav-menu_visible{
+        right: 0;
+    }
+
+    @media only screen and (min-width: 360px) and (max-width: 393px) {
+        .textWeb button{
+            width: 70%;
+        }
+    }
+  
+}
+
+  /*end*/
