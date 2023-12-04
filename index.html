@@ -2,140 +2,107 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Cafe Colombiano de Alta Calidad</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/5a6ad1eaa2.js" crossorigin="anonymous"></script>
-    <script defer src="./js/index.js"></script>
-    <title>WEB 3.0</title>
-</head> 
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100&display=swap" rel="stylesheet">
+    <script src="./index.js"></script>
+</head>
 <body>
-    <div id="container">
-        <div id="header">
-            <div id="logo">
-                <img src="./img/logo.svg" alt="logoW">
+    
+    <div id="menu" class="logoContainer">
+        <header id="background" class="header">
+        </header>
+        <img class="imgLogo" src="./img/Logo.png" alt=""></img>
+        <a href="https://api.whatsapp.com/send?phone=573135486960" target="_blank" class="busquedaCont">
+            <img class="imgLogoCarrito" src="./img/whatsapp.PNG" alt="" onclick="window.open()"></img>
+            <div class="compraUnit">¡Compra Aquí!</div>
+        </a>
+        <div class="busquedaSear">
+            <img class="imgLupita" src="./img/lupa.png" alt="" onclick="window.open()"></img>
+            <input class="inputBusqueda" type="form" placeholder="Buscar Productos">
+        </div>
+        <a href="./assets/Proceso Para el Cafe.pdf" download="Proceso Para el Cafe.pdf" class="containerFile">
+            <div class="textConocer">Descubre Más</div>
+            <img class="imgCafe" src="./img/EmpaqueSinFondo.png" alt="">
+        </a>
+    </div>
+
+    <div class="body">
+        <div class="containerGeneral">
+            <img class="colorFondo" src="./img/FondoCafe.jpeg" alt="">
+            <div class="containerBlack"></div>
+            <div class="cintaPresentacion">Colombianos con Amor y Aroma a Cafe</div>
+        </div>
+        <div class="containerProductos">
+            <div class="etiquetaPrincipal">
+               
             </div>
-            <div id="nav">
-                <div class="one"><a href="">Home</a></div>
-                <div class="two"><a href="">New</a></div>
-                <div class="three"><a href="">Popular</a></div>
-                <div class="four"><a href="">Trending</a></div>
-                <div class="five"><a href="">Categories</a></div>
-            </div>
-            <div id="menu">
-                <button class="toggle">
-                    <i class="fa-solid fa-bars"></i>
-                </button>
-            </div> 
-            <div class="oppacity">
-                <div class="floatingMenu">
-                    <button class="close">
-                        <i class="fa-solid fa-xmark"></i>
-                    </button>
-                    <div id="navFloating">
-                        <div class="separation one"><a href="">Home</a></div>
-                        <div class="separation two"><a href="">New</a></div>
-                        <div class="separation three"><a href="">Popular</a></div>
-                        <div class="separation four"><a href="">Trending</a></div>
-                        <div class="separation five"><a href="">Categories</a></div>
+            <div class="ventaProductos">
+                <div class="titleProductos">
+                    SOBRE NUESTRO PRODUCTO
+                </div>
+                <div class="seccionProductos">
+                    <div class="productos">
+                        <img class="imagenFondo" src="./img/frutoCafeDesc.jpeg" alt="">
+                        <div class="textoExpl heightNuestro">
+                            <h3 class="titleExp">NUESTRO PRODUCTO</h3>
+                            <div class="Descripcion">En Café Guavital, nos enorgullece ofrecer nuestro café variedad Castillo, cultivado con esmero en la finca Las Palomas. Este exquisito grano se distingue por ser cultivado sin pesticidas, utilizando métodos naturales que realzan sus sabores auténticos y garantizan una experiencia de café pura y sostenible.</div>
+                        </div>
                     </div>
-                </div> 
+                    <div class="productos">
+                        <img class="imagenFondo" src="./img/Empaque con Fondo.jpg" alt="">
+                        <div class="textoExpl">
+                            <h3 class="titleExp">CAFE MOLIDO</h3>
+                            <div class="Descripcion">
+                                Origen Colombia <BR></BR>
+                                Productor Finca Las Palomas <BR></BR>
+                                Variedad: Castillo <BR></BR>
+                                Sabor: Frutos Tropicales, Frutos Rojos, Chocolate <BR></BR>
+                                Elevación 1970 m.s.n.m <BR></BR>
+                                Procesamiento: Natural <BR></BR>
+                                Tostado: Medio <BR></BR>
+                                Acidez: Media Brillante <BR></BR></div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-        <div id="content">
-            <div id="leftContent">
-               <div class="banner">
-                    <img src="./img/image-web-3-desktop.jpg" alt="imgBanner">
+        <div class="containerEspecificaciones">
+            <div class="generalH">
+               <div class="containerImg">
+                    <img class="imgGeneral" src="./img/somos.jpeg" alt="">
+               </div>
+               <div class="containerTexto">
+                    <div class="titleContainer">¿QUIENES SOMOS?</div>
+                    <div class="textoContainer">En Café Guavital, nos enorgullece presentarnos como una empresa arraigada en la idílica vereda San Rafael, ubicada en el Municipio de Guavatá, Santander. Nuestra historia se entrelaza con la pasión y dedicación de Maricel Moreno y Segundo Díaz, quienes, en la finca Las Palomas, cultivan con esmero el café que se ha convertido en la piedra angular de sus vidas y la principal fuente de ingresos para su familia. Más allá de ser productores de café, Maricel y Segundo son generadores clave de empleo en la región, especialmente durante la época de cosecha, contribuyendo así al dinamismo económico y al tejido social de Guavatá. <br><br> En nuestro compromiso con la calidad y la autenticidad, nos inspiramos en las características únicas de este hermoso municipio, donde la tradición cafetera se fusiona con la belleza natural de sus paisajes, creando una experiencia única que deseamos compartir con cada taza de Café Guavital.</div>
+               </div>
+            </div>
+            <div class="generalH">
+                <div class="containerTexto">
+                    <div class="titleContainer">MISION</div>
+                    <div class="textoContainer">En Café Guavital, nos dedicamos con pasión y compromiso a honrar la rica herencia de nuestros apasionados campesinos, que cultivan con esmero los granos de café más excepcionales. Nuestra misión es elevar la experiencia del café a nuevas alturas, ofreciendo productos naturales de la más alta calidad, cultivados con amor y respeto por la tierra. <br><br> Nos esforzamos por fomentar un vínculo sostenible entre los consumidores y los agricultores, asegurando que cada taza de café cuente una historia de tradición, calidad y dedicación. Buscamos exaltar los sabores auténticos y las cualidades únicas de cada grano, brindando a nuestros clientes una experiencia sensorial que celebra la artesanía de nuestros agricultores.</div>
                 </div>
-                <div class="bannerBottom">
-                    <div class="titleWeb">
-                        <p>The Bright Future of Web 3.0?</p>
-                    </div>
-                    <div class="textWeb">
-                        <p>We dive into the next evolution of the web that claims to put power into the platforms back into the hands of the people. But is it really fulfilling its promise?</p>
-                        <button class="buttonRead">
-                            READ MORE
-                        </button>
-                    </div>
+                <div class="containerImg">
+                    <img class="imgGeneral" src="./img/cafeLogo.png" alt="">
                 </div>
             </div>
-            <div id="rightContent">
-                <div class="headerRContent">
-                    New
+            <div class="generalH">
+                <div class="containerImg">
+                    <img class="imgGeneral" src="./img/FondoCafe2.jpg" alt="">
                 </div>
-                <div id="slideContent">
-                    <p class="titleSlide">
-                        <a href="">Hydrogen VS Electric cars</a>
-                    </p>
-                    <p class="textSlide">
-                        Will Hydrogen-fueled cars ever catch up to EVs?
-                    </p>
-                    <hr>
-                    <p class="titleSlide">
-                        <a href="">The Downsides of AI Artistry</a>
-                    </p>
-                    <p class="textSlide">
-                        What are the possibles adverse effects of on-demand AI image generation?
-                    </p>
-                    <hr>
-                    <p class="titleSlide">
-                        <a href="">is VC Funding Drying Up?</a>
-                    </p>
-                    <p class="textSlide">
-                        Private funding by VC firms is down 50% YOY. We take a look at what that means.
-                    </p>
-                    <hr>
-                    <p class="titleSlide">
-                        <a href="">Hydrogen VS Electric cars</a>
-                    </p>
-                    <p class="textSlide">
-                        Will Hydrogen-fueled cars ever catch up to EVs?
-                    </p>
-                    <hr>
-                </div>
-            </div>
-            <div id="bottomContent">
-                <div class="containerBottom">
-                    <div class="imgBanner">
-                            <img src="./img/img1.jpg" alt="Computer">
-                    </div>
-                    <div class="txtBannerI">
-                        <p class="text1">01</p>
-                        <br>
-                        <p class="text2">Reviving Retro PCs</p>
-                        <br>
-                        <p class="text3">What happens when old PCs are given modern updates?</p>
-                    </div>
-                </div>
-                <div class="containerBottom">
-                    <div class="imgBanner">
-                        <img src="./img/img2.jpg" alt="keyboard">
-                    </div>
-                    <div class="txtBannerI">
-                        <p class="text1">02</p>
-                        <br>
-                        <p class="text2">Top 10 laptops of 2022</p>
-                        <br>
-                        <p class="text3">Our best picks for various needs and budgets</p>
-                    </div>
-                </div>
-                <div class="containerBottom">
-                    <div class="imgBanner">
-                        <img src="./img/img3.jpg" alt="controller">
-                    </div>
-                    <div class="txtBannerI">
-                        <p class="text1">03</p>
-                        <br>
-                        <p class="text2">The Growth of Gaming</p>
-                        <br>
-                        <p class="text3">How the pandemics has sparked fresh opportunities</p>
-                    </div>
+                <div class="containerTexto">
+                    <div class="titleContainer">VISION</div>
+                    <div class="textoContainer">En Café Guavital, nos visualizamos como un referente indiscutible en el mercado colombiano de café de origen, consolidando nuestra posición en el corto plazo como la elección preferida de los amantes del buen café. Aspiramos a ser reconocidos por la excelencia de nuestros granos, la pasión de nuestros agricultores y la autenticidad de cada taza que lleva nuestro nombre. <br><br> A medida que avanzamos hacia el futuro, nuestra visión se expande más allá de la producción de café de alta calidad. Nos imaginamos como un destino emblemático para los aficionados al café, con locales que no solo sirven una deliciosa bebida, sino que ofrecen una experiencia completa. Visualizamos espacios acogedores donde los clientes pueden sumergirse en la cultura del café, explorar los matices de los granos de origen y participar en eventos que celebren la riqueza de esta bebida única.</div>
                 </div>
             </div>
         </div>
     </div>
+    <footer id="footer">
+        <div class="texoDir">Santander, Guavatá, San Rafael Finca Las Palomas</div>
+    </footer>
+    
 </body>
 </html>
